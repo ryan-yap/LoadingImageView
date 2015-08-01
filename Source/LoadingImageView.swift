@@ -124,7 +124,7 @@ public final class LoadingImageView : UIView, NSURLSessionDownloadDelegate {
     #else
     clipsToBounds = true
     backgroundColor = UIColor.whiteColor()
-    addGestureRecognizer(tapGestureRecognizer)
+    //addGestureRecognizer(tapGestureRecognizer)
     
     addSubview(imageView)
     imageView.contentMode = contentMode
