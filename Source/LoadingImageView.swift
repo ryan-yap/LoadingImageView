@@ -166,7 +166,7 @@ public final class LoadingImageView : UIView, NSURLSessionDownloadDelegate {
     dispatch_async(dispatch_get_main_queue()) {
       self.updateProgressLayer(forState: self.state, progress: self.progress)
       
-      println("\(self.progress * 100)%")
+      //println("\(self.progress * 100)%")
     }
   }
   
